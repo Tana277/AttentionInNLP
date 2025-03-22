@@ -1,0 +1,25 @@
+I. 
+1) Hãy trình bày cơ chế Attention trong các mô hình Sequence-to-Sequence bao
+ ● Môhìnhdựatrên LSTM
+ ● MôhìnhTransformer
+ ● MôhìnhGPT(Generative Pretrain Transformer)
+ Phân tích sự khác nhau về Attention giữa các kiến trúc này.
+ 
+ 2) Xây dựng mô hình Lstm-to-Lstm có attention và không có attention cho bài
+ toán Dịch máy từ ngôn ngữ tiếng Việt sang tiếng Anh:- Hãy so sánh kết quả giữa 2 mô hình này.- Chỉ ra attention nó được thể hiện như thế nào qua 1 ví dụ đưa vào
+
+
+II. 
+ 3)
+ Chọn 1 bài toán cụ thể thuộc loại trích chọn thông tin (Information Extraction),
+ chọn bài toán có ý nghĩa trong thực tế. Và ưu tiên chọn loại bài toán mới.
+ Input: 1 đoạn văn bản (có thể là 1 câu)
+ Output: thông tin cần trích chọn và format
+ Ví dụ cho bài toán NER:
+ Input: “ông Trần Văn Nam đang đi chơi tại Hà Nội”
+ Output: “<person> Trần Văn Nam <place> Hà Nội”
+ Hãy tự xây dựng dữ liệu để huấn luyện và dữ liệu Test.
+ Gợi ý: có thể dùng các mô hình ngôn ngữ lớn để xây dựng dữ liệu.
+ 4)
+ Xây dựng mô hình Transformer (có thể sử dụng Pretrained model) để huấn
+ luyện và đánh giá bài toán trên.
